@@ -15,7 +15,7 @@ namespace AopMethodInterception.Core
 
         public void OnException(Exception e)
         {
-            throw new NotImplementedException();
+            sqlContext.Dispose();
         }
 
         public void OnExit()
