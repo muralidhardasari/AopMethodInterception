@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopMethodInterception.Core", "AopAutoFacSingleDbConnection.Core\AopMethodInterception.Core.csproj", "{16BB42B5-7B00-414A-AA44-77B0B7529574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{AFDD0316-80C9-4085-ACD1-C0DCF37D0A33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16BB42B5-7B00-414A-AA44-77B0B7529574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BB42B5-7B00-414A-AA44-77B0B7529574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BB42B5-7B00-414A-AA44-77B0B7529574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BB42B5-7B00-414A-AA44-77B0B7529574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFDD0316-80C9-4085-ACD1-C0DCF37D0A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDD0316-80C9-4085-ACD1-C0DCF37D0A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDD0316-80C9-4085-ACD1-C0DCF37D0A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDD0316-80C9-4085-ACD1-C0DCF37D0A33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {734442BA-0161-4964-BE35-2BB793CD9547}
+	EndGlobalSection
+EndGlobal
